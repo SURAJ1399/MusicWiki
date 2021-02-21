@@ -4,7 +4,7 @@ It helps to discover albums,artists and tracks based on different Genre. Overall
 
 
 Download app Here 
-https://drive.google.com/file/d/11V_aKGx2-YrVLNl_EkdSPTmAA38QoUD5/view?usp=sharing
+https://github.com/SURAJ1399/MusicWiki/blob/master/app-debug.apk
 
 ## TECHNOLOGY AND LIBRARIES
 
