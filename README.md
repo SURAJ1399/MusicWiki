@@ -1,32 +1,50 @@
 # MusicWiki
-MusicWiki app using last.fm APIs
+MusicWiki app using last.fm APIs built using kotlin for native android. It is based on MVVM pattern with dagger Hilt as dependency injection tools.
+It helps to discover albums,artists and tracks based on different Genre
 
 
 Download app Here 
 https://drive.google.com/file/d/11V_aKGx2-YrVLNl_EkdSPTmAA38QoUD5/view?usp=sharing
 
-## About
+## TECHNOLOGY AND LIBRARIES
 
-wallabag has been made for you to comfortably read and archive your articles.
-You can download wallabag from wallabag.org and follow the instructions to install it on your own server.
-Alternatively, you can directly sign up for [wallabag.it](https://wallabag.it) or [Framabag](https://framabag.org).
+KOTLIN
+DAGGER HILT
+JUNIT
+RETROFIT
+MVVM(Architecture Patern)
 
-This android application allows you to put a link in your wallabag instance, letting you read your wallabag links offline.
 
-This application was originally created by Jonathan GAULUPEAU and released under the GNU GPLv3.
-wallabag is a creation from Nicolas Lœuillet released under the MIT License (Expat License).
+
 
 ## Features
 
-The android app lets you:
-- Connect to your self-hosted wallabag instance or connect to your [wallabag.it](https://wallabag.it) or [Framabag](https://framabag.org) account.
-- Supports wallabag 2.0 and higher.
-- Completely ad-free.
-- Increase and decrease the size of the font and also switch between a serif or sans-serif font for a more comfortable reading experience.
-- Switch between numerous themes.
-- Possibility to cache images locally for offline reading.
-- Get articles read via Text-to-Speech feature.
-- Needs no special permissions on Android 6.0+.
+- Display the list of genres available. Genres are called tags in LastFm api. The list will
+initially contain top 10 genres and when the user clicks on the expand button the entire
+list is shown in the same screen.
+- Clicking on the genre it should take the user to a page which contains information
+regarding it. It should have a genre as the title, description of the genre.In the page it
+should list top albums, top tracks and top artists as different sections.
+- Each item listed under the album  has the cover image if available or a
+default image, the title and artist name
+- Each item listed under the artists has the cover image, if available or a
+default image and the name
+- Each item listed under tracks should has the cover image if available or a
+default image, the title and artist name.
+
+● Clicking on the item
+○ Albums
+■ It  display the cover image, title and the artist information. It 
+also have  the description and the genres. Clicking on the genre it 
+display the details about the genre, similar to the flow in the first screen.
+
+○ Artists
+■ It  display the image, title ,play count and followers, description, a
+list of top tracks and top albums and the genres. Clicking on the genre it
+ display the details about the genre, similar to the flow in the first
+screen.
+
+■ Clicking on the album should show its information.
 
 
 
