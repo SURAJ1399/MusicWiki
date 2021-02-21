@@ -1,6 +1,6 @@
 # MusicWiki
 MusicWiki app using last.fm APIs built using kotlin for native android. It is based on MVVM pattern with dagger Hilt as dependency injection tools.
-It helps to discover albums,artists and tracks based on different Genre
+It helps to discover albums,artists and tracks based on different Genre. Overall its a wikipedia for Music
 
 
 Download app Here 
@@ -8,10 +8,10 @@ https://drive.google.com/file/d/11V_aKGx2-YrVLNl_EkdSPTmAA38QoUD5/view?usp=shari
 
 ## TECHNOLOGY AND LIBRARIES
 
-KOTLIN
-DAGGER HILT
-JUNIT
-RETROFIT
+KOTLIN,
+DAGGER HILT,
+JUNIT,
+RETROFIT,
 MVVM(Architecture Patern)
 
 
@@ -33,6 +33,7 @@ default image and the name
 default image, the title and artist name.
 
 ● Clicking on the item
+
 ○ Albums
 ■ It  display the cover image, title and the artist information. It 
 also have  the description and the genres. Clicking on the genre it 
